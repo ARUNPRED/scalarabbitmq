@@ -1,4 +1,1 @@
-class Manifesto {
-  case class Person(name:String, age: Int)
-
-}
+case class Manifesto(task:String, done: Boolean)

@@ -80,6 +80,7 @@ object Subscriber extends App
   }
 
   def invokepgrestapi(dataobject:Manifesto): Boolean ={
+    println("Invoked")
     val invokeapi = new PGRestAPIService
     val trans = invokeapi.pgrestpost(accesstoken,dataobject)
     return trans
